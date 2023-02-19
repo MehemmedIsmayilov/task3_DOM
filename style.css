@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+.form {
+  width: 600px;
+  height: 600px;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  margin: 80px 150px;
+  
+  justify-content: center;
+  box-shadow: 0 0 20px rgb(243, 172, 124);
+}
+input {
+  width: 400px;
+  border-radius: 8px;
+  border: 1px solid rgb(243, 172, 124);
+  padding: 20px;
+}
+.btn {
+ 
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: rgb(96, 147, 241);
+  color: white;
+  font-weight: bold;
+}
+.chckN {
+  display: flex;
+  align-items: center;
+  padding-left: 75px;
+  width: 100%;
+}
+#chck {
+    width: 40px;
+}
+.table{
+    height: 600px;
+    margin-left: 50px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 80px;
+    width: 700px;
+    box-shadow:0 0 20px rgb(243, 172, 124) ;
+}
+td{
+    color: gray;
+    border-bottom: 1px solid rgb(182, 245, 206);
+}
+th{
+    color: rgb(119, 136, 136);
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(182, 245, 206);
+}
