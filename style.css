@@ -25,13 +25,19 @@ input {
   padding: 20px;
 }
 .btn {
- 
-  width: 100px;
+ border-radius: 100px;
+  width: 120px;
   height: 40px;
   border: none;
-  background-color: rgb(96, 147, 241);
+  background-color: rgb(130, 169, 241);
   color: white;
   font-weight: bold;
+}
+.btn:hover{
+    box-shadow: 0 0 20px rgb(255, 60, 0);
+    background-image: linear-gradient(to right,rgb(247, 247, 247),rgb(169, 232, 235),rgb(148, 243, 250),rgb(166, 233, 245),rgb(105, 236, 253),rgb(81, 194, 238));
+    color: black;
+    transition: 2s;
 }
 .chckN {
   display: flex;
